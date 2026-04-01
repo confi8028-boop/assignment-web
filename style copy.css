@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f5f7fa;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: white;
+}
+
+.navbar nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar .active {
+    border-bottom: 2px solid #2c5aa0;
+}
+
+.navbar button {
+    padding: 8px 15px;
+    border: none;
+    background: #2c5aa0;
+    color: white;
+    border-radius: 6px;
+}
+
+/* HERO */
+.hero {
+    height: 400px;
+    background: url() center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    color: white;
+}
+
+.hero-text {
+    max-width: 400px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    margin-bottom: 15px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    border: none;
+    background: #2c5aa0;
+    color: white;
+    border-radius: 6px;
+}
+
+/* CONTENT */
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card p {
+    margin-top: 8px;
+}
+
+.full {
+    grid-column: span 2;
+}
+
+.view {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: white;
+    border-radius: 6px;
+}
+
+/* RIGHT */
+.tip {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.tip span {
+    color: gray;
+    font-size: 14px;
+}
+
+/* NEWSLETTER */
+.newsletter {
+    text-align: center;
+    padding: 60px 20px;
+    background: #e9eef5;
+}
+
+.newsletter p {
+    margin: 10px 0 20px;
+    color: gray;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.form input {
+    padding: 15px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 8px 0 0 8px;
+    outline: none;
+}
+
+.form button {
+    padding: 15px 25px;
+    border: none;
+    background: #2c5aa0;
+    color: white;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+}
